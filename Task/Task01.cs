@@ -1,4 +1,4 @@
-﻿Console.Write("Введите количество элементов массива: "); // Ввод количества элементов массива
+﻿Console.WriteLine("Введите количество элементов массива: "); // Ввод количества элементов массива
 int arrayLength = Convert.ToInt32(Console.ReadLine());
 string[] stringArray = new string[arrayLength];
 
@@ -36,7 +36,7 @@ void PrintArray(string[] array) // Метод для вывода на экра�
     Console.Write("["); // Вывод на экран
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"'{array[i]}', ");
+        Console.Write($"'{array[i]}'");
     }
     Console.Write("]");
 }
